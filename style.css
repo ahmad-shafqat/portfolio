@@ -184,3 +184,16 @@
   font-weight: 400;
   color: var(--neutrals-n-600, #344563);
 }
+
+.see-project {
+  color: var(--primary-b-500, #396df2);
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.51px;
+  border-radius: 8px;
+  border: 1px solid var(--primary-b-400, #6070ff);
+  background-color: white;
+  padding: 8px;
+  cursor: pointer;
+}
