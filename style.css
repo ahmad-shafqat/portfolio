@@ -289,3 +289,15 @@
   background: var(--neutrals-n-10, #f7f7f9);
   cursor: pointer;
 }
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-b-400, #6070ff);
+  background-repeat: no-repeat;
+  gap: 12px;
+  padding: 100px 24px 24px 24px;
+  background-image: url("./assets/svg/contact\ form\ shapes-mobile.svg");
+  background-position: right;
+  border-radius: 60px 0 0 0;
+}
