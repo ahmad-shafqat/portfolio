@@ -32,15 +32,6 @@
   background-repeat: no-repeat;
 }
 
-.intro {
-  color: #172b4d;
-  font-size: 40px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  line-height: 52px;
-  word-wrap: break-word;
-}
-
 .bio {
   color: #344563;
   font-size: 16px;
@@ -197,3 +188,4 @@
   padding: 8px;
   cursor: pointer;
 }
+
