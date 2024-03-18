@@ -300,7 +300,6 @@
   background-image: url("./assets/svg/contact\ form\ shapes-mobile.svg");
   background-position: right;
   border-radius: 60px 0 0 0;
-
 }
 
 .contact {
@@ -338,11 +337,7 @@
   border-radius: 8px;
   border: 1px solid var(--base-100, #cfd8dc);
   background: var(--mono-white, #fff);
-  box-sizing: border-box; /* Include padding and border in width */
-}
-
-.get-in-touch {
-  margin-top: 12px; /* Add margin to the button */
+  box-sizing: border-box;
 }
 
 .email::placeholder,
