@@ -2,6 +2,11 @@
   padding: 0;
 }
 
+body {
+  background: var(--neutrals-n-10, #f7f7f9);
+  margin: 0;
+}
+
 .header {
   display: flex;
   height: 48px;
