@@ -43,7 +43,7 @@ body {
   justify-content: center;
   row-gap: 12px;
   padding: 114px 24px;
-  background-image: url("./assets/images/header-shapes\ mobile.png");
+  background-image: url("header-shapes\ mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: white;
@@ -291,7 +291,7 @@ body {
   background-repeat: no-repeat;
   gap: 12px;
   padding: 100px 24px 24px 24px;
-  background-image: url("./assets/svg/contact\ form\ shapes-mobile.svg");
+  background-image: url("contact\ form\ shapes-mobile.svg");
   background-position: right;
   border-radius: 60px 0 0 0;
 }
@@ -376,3 +376,157 @@ body {
   display: none;
 }
 
+@media only screen and (min-width: 768px) {
+  .work-section-desktop {
+    display: grid;
+  }
+
+  .work-section-mobile {
+    display: none;
+  }
+
+  .header {
+    justify-content: space-between;
+    padding: 10px 9.9%;
+  }
+
+  .h-about {
+    display: block;
+    color: var(--neutrals-n-600, #344563);
+    text-align: center;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .h-item {
+    padding: 10px 12px;
+    cursor: pointer;
+  }
+
+  .logo-icon {
+    display: none;
+  }
+
+  .item-list {
+    list-style: none;
+    display: flex;
+    gap: 3px;
+  }
+
+  .main {
+    padding: 221px 19% 289px 19%;
+    background-image: url("Header\ bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .intro {
+    font-size: 48px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .connect-logo {
+    font-size: 16px;
+  }
+
+  .work-section {
+    padding: 9.8%;
+  }
+
+  .work-card {
+    flex-direction: row;
+    padding: 24px;
+  }
+
+  .reverse-card {
+    flex-direction: row-reverse;
+  }
+
+  .card-data {
+    padding: 24px;
+    width: 50%;
+    gap: 24px;
+  }
+
+  .project-title {
+    font-size: 40px;
+    margin-bottom: -12px;
+  }
+
+  .project-intro {
+    font-size: 18px;
+    display: flex;
+    gap: 12px;
+  }
+
+  .project-description {
+    font-size: 16px;
+  }
+
+  .about-myself {
+    flex-direction: row;
+    padding: 11.5% 10%;
+  }
+
+  .about-me {
+    width: 50%;
+  }
+
+  .drop-down {
+    width: 50%;
+  }
+
+  .drop-down-items {
+    display: inline-block;
+    height: 91px;
+    width: 79px;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact-section {
+    background-image: url("contact\ form\ background\ shapes@2x.png");
+    padding: 142px 22.3% 127px 22.3%;
+    border-radius: 100px 0 0 0;
+    background-size: contain;
+  }
+
+  .contact-description {
+    align-self: center;
+    padding: 0 16%;
+  }
+
+  .name,
+  .email {
+    border-radius: 2px;
+    width: 435px;
+    height: 36px;
+    align-self: center;
+  }
+
+  .feedback {
+    width: 435px;
+    align-self: center;
+    border-radius: 2px;
+  }
+
+  .get-in-touch {
+    align-self: center;
+  }
+
+  .portfolio-snapshot {
+    flex: 1;
+    width: 50%;
+    object-fit: contain;
+  }
+}
